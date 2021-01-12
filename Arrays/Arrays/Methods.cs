@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Arrays //??
+namespace forCalculations
 {
-    public class Browser // Browser?!
+    public class Methods
     {
         public enum Operations
         {
@@ -12,7 +12,7 @@ namespace Arrays //??
             Devide
         }
 
-        public int Calculate(int x, int y, Operations operationType) //why the method is static?
+        public int Calculate(int x, int y, Operations operationType) 
         {
             int result = 0;
             switch (operationType)
