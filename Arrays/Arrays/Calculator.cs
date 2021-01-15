@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Linq;
+using forCalculations;
+using Class1;
 
-namespace Calculations //can I give different namespaces names in different classes, or they must be the same? 
+namespace Calculations 
 {
     public class Calculator 
     {                                                                         //it is good idea, to write comments in english 
         public static void Main(string[] args)
         {
-            Console.WriteLine("Введите первое число:");
+            /*Console.WriteLine("Введите первое число:");
             int firstNum = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine("Введите второе число:");
             int secondNum = Convert.ToInt32(Console.ReadLine()); 
@@ -18,13 +20,27 @@ namespace Calculations //can I give different namespaces names in different clas
                 Console.WriteLine("Выберите тип операции: \nСложение \nВычитание \nУмножение \nДеление");
                 operationIndex = Console.ReadLine();
             }
-            while (!array.Contains(operationIndex));
-            forCalculations.Methods calculator = new forCalculations.Methods();
+            while (!array.Contains(operationIndex));*/
+            Entervalues a = GetValues();
 
-            forCalculations.Methods.Operations operationType = calculator.GetOperationType(operationIndex);  //is it right?(forCalculations.Methods.Operations blablabla...
-            int result = calculator.Calculate(firstNum, secondNum, operationType);
+            Methods calculator = new Methods();
+
+            Methods.Operations operationType = calculator.GetOperationType(a.operationIndex); 
+            int result = calculator.Calculate(a.firstNum, a.secondNum, operationType);
             Console.WriteLine($"результат операции равен {result}");
             Console.ReadKey();
+        }
+
+        static Entervalues GetValues()
+        {
+            Entervalues enter = new Entervalues();
+            Console.WriteLine("Enter first number:");
+            enter.firstNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second number:");
+            enter.secondNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter operation type: \nСложение \nВычитание \nУмножение \nДеление");
+            enter.operationIndex = Console.ReadLine();
+            return enter;
         }
     }
 }
