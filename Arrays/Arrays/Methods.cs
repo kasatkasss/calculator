@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace forCalculations
+namespace Calculations
 {
     public class Methods
     {
@@ -33,10 +33,10 @@ namespace forCalculations
             return result;
         } 
 
-        public Operations GetOperationType(string operationIndex)
+        public Operations GetOperationType(string chooseOperation)
         {
             Operations result = 0;
-            switch(operationIndex)
+            switch(chooseOperation)
             {
                 case "Сложение":
                     result = Operations.Add;
