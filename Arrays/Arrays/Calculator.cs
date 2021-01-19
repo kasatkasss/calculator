@@ -11,18 +11,18 @@ namespace Calculations
             int firstNum = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine("Введите второе число:");
             int secondNum = Convert.ToInt32(Console.ReadLine()); 
-            string chooseOperation;
-            string[] array = { "Сложение", "Вычитание", "Умножение", "Деление" }; 
+            string operationIndex;
+            string[] listOFOperations = { "Сложение", "Вычитание", "Умножение", "Деление" }; 
             do 
             {
                 Console.WriteLine("Выберите тип операции: \nСложение \nВычитание \nУмножение \nДеление");
-                chooseOperation = Console.ReadLine();
+                operationIndex = Console.ReadLine();
             }
-            while (!array.Contains(chooseOperation));
+            while (!listOFOperations.Contains(operationIndex));
 
             Methods calculator = new Methods();
 
-            Methods.Operations operationType = calculator.GetOperationType(chooseOperation); 
+            Methods.Operations operationType = calculator.GetOperationType(operationIndex); 
             int result = calculator.Calculate(firstNum, secondNum, operationType);
             Console.WriteLine($"результат операции равен {result}");
             Console.ReadKey();

@@ -33,10 +33,10 @@ namespace Calculations
             return result;
         } 
 
-        public Operations GetOperationType(string chooseOperation)
+        public Operations GetOperationType(string operationIndex)
         {
             Operations result = 0;
-            switch(chooseOperation)
+            switch(operationIndex)
             {
                 case "Сложение":
                     result = Operations.Add;
