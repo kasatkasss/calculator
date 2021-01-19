@@ -6,8 +6,8 @@ namespace AreaCalculations
 {
     public class Square : Figure
     {
-        public int side;
-        public override int GetArea()
+        public float side;
+        public override float GetArea()
         {
             return side*side;
         }

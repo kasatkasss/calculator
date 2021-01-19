@@ -3,6 +3,6 @@ namespace AreaCalculations
 {
     public abstract class Figure
     {
-        public abstract int GetArea();
+        public abstract float GetArea();
     }
 }

@@ -11,3 +11,16 @@ C:\Users\u.lipavy\source\repos\AreaCalculations\AreaCalculations\obj\Debug\netco
 C:\Users\u.lipavy\source\repos\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.dll
 C:\Users\u.lipavy\source\repos\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.pdb
 C:\Users\u.lipavy\source\repos\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.genruntimeconfig.cache
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\bin\Debug\netcoreapp3.1\AreaCalculations.exe
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\bin\Debug\netcoreapp3.1\AreaCalculations.deps.json
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\bin\Debug\netcoreapp3.1\AreaCalculations.runtimeconfig.json
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\bin\Debug\netcoreapp3.1\AreaCalculations.runtimeconfig.dev.json
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\bin\Debug\netcoreapp3.1\AreaCalculations.dll
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\bin\Debug\netcoreapp3.1\AreaCalculations.pdb
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.csprojAssemblyReference.cache
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.AssemblyInfoInputs.cache
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.AssemblyInfo.cs
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.csproj.CoreCompileInputs.cache
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.dll
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.pdb
+C:\Users\u.lipavy\calculator\AreaCalculations\AreaCalculations\obj\Debug\netcoreapp3.1\AreaCalculations.genruntimeconfig.cache

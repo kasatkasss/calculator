@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\u.lipavy\\source\\repos\\AreaCalculations\\AreaCalculations\\AreaCalculations.csproj",
+      "projectUniqueName": "C:\\Users\\u.lipavy\\calculator\\AreaCalculations\\AreaCalculations\\AreaCalculations.csproj",
       "projectName": "AreaCalculations",
-      "projectPath": "C:\\Users\\u.lipavy\\source\\repos\\AreaCalculations\\AreaCalculations\\AreaCalculations.csproj",
+      "projectPath": "C:\\Users\\u.lipavy\\calculator\\AreaCalculations\\AreaCalculations\\AreaCalculations.csproj",
       "packagesPath": "C:\\Users\\u.lipavy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\u.lipavy\\source\\repos\\AreaCalculations\\AreaCalculations\\obj\\",
+      "outputPath": "C:\\Users\\u.lipavy\\calculator\\AreaCalculations\\AreaCalculations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\u.lipavy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

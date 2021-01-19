@@ -6,9 +6,9 @@ namespace AreaCalculations
 {
     public class Rectangle : Figure
     {
-        public int width;
-        public int height;
-        public override int GetArea()
+        public float width;
+        public float height;
+        public override float GetArea()
         {
             return height * width;
         }
