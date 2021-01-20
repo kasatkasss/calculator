@@ -1,11 +1,10 @@
 ﻿namespace AreaCalculations
 {
-    public class Square : Figure
+    public class Triangle : Figure
     {
         public override float GetArea()
         {
-            sideA = sideB;
-            return base.GetArea();
+            return sideA * sideB/2;
         }
     }
 }

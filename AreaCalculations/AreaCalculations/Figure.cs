@@ -1,8 +1,13 @@
-﻿using System;
-namespace AreaCalculations
+﻿namespace AreaCalculations
 {
     public abstract class Figure
     {
-        public abstract float GetArea();
+        public float sideA;
+        public float sideB;
+
+        public virtual float GetArea()
+        {
+            return sideA * sideB;
+        }
     }
 }
